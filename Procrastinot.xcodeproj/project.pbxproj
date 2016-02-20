@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CB21D651C7844820000AF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21D641C7844820000AF34 /* AppDelegate.swift */; };
+		6CB21D671C7844820000AF34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21D661C7844820000AF34 /* ViewController.swift */; };
+		6CB21D6A1C7844820000AF34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB21D681C7844820000AF34 /* Main.storyboard */; };
+		6CB21D6C1C7844820000AF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB21D6B1C7844820000AF34 /* Assets.xcassets */; };
+		6CB21D6F1C7844820000AF34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB21D6D1C7844820000AF34 /* LaunchScreen.storyboard */; };
+		6CB21D7A1C7844820000AF34 /* ProcrastinotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21D791C7844820000AF34 /* ProcrastinotTests.swift */; };
+		6CB21D851C7844820000AF34 /* ProcrastinotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21D841C7844820000AF34 /* ProcrastinotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CB21D761C7844820000AF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB21D591C7844820000AF34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB21D601C7844820000AF34;
+			remoteInfo = Procrastinot;
+		};
+		6CB21D811C7844820000AF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CB21D591C7844820000AF34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CB21D601C7844820000AF34;
+			remoteInfo = Procrastinot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CB21D611C7844820000AF34 /* Procrastinot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procrastinot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB21D641C7844820000AF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CB21D661C7844820000AF34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CB21D691C7844820000AF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CB21D6B1C7844820000AF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CB21D6E1C7844820000AF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CB21D701C7844820000AF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB21D751C7844820000AF34 /* ProcrastinotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcrastinotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB21D791C7844820000AF34 /* ProcrastinotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcrastinotTests.swift; sourceTree = "<group>"; };
+		6CB21D7B1C7844820000AF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB21D801C7844820000AF34 /* ProcrastinotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcrastinotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CB21D841C7844820000AF34 /* ProcrastinotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcrastinotUITests.swift; sourceTree = "<group>"; };
+		6CB21D861C7844820000AF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CB21D5E1C7844820000AF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB21D721C7844820000AF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB21D7D1C7844820000AF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CB21D581C7844820000AF34 = {
+			isa = PBXGroup;
+			children = (
+				6CB21D631C7844820000AF34 /* Procrastinot */,
+				6CB21D781C7844820000AF34 /* ProcrastinotTests */,
+				6CB21D831C7844820000AF34 /* ProcrastinotUITests */,
+				6CB21D621C7844820000AF34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CB21D621C7844820000AF34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB21D611C7844820000AF34 /* Procrastinot.app */,
+				6CB21D751C7844820000AF34 /* ProcrastinotTests.xctest */,
+				6CB21D801C7844820000AF34 /* ProcrastinotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CB21D631C7844820000AF34 /* Procrastinot */ = {
+			isa = PBXGroup;
+			children = (
+				6CB21D641C7844820000AF34 /* AppDelegate.swift */,
+				6CB21D661C7844820000AF34 /* ViewController.swift */,
+				6CB21D681C7844820000AF34 /* Main.storyboard */,
+				6CB21D6B1C7844820000AF34 /* Assets.xcassets */,
+				6CB21D6D1C7844820000AF34 /* LaunchScreen.storyboard */,
+				6CB21D701C7844820000AF34 /* Info.plist */,
+			);
+			path = Procrastinot;
+			sourceTree = "<group>";
+		};
+		6CB21D781C7844820000AF34 /* ProcrastinotTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CB21D791C7844820000AF34 /* ProcrastinotTests.swift */,
+				6CB21D7B1C7844820000AF34 /* Info.plist */,
+			);
+			path = ProcrastinotTests;
+			sourceTree = "<group>";
+		};
+		6CB21D831C7844820000AF34 /* ProcrastinotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CB21D841C7844820000AF34 /* ProcrastinotUITests.swift */,
+				6CB21D861C7844820000AF34 /* Info.plist */,
+			);
+			path = ProcrastinotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CB21D601C7844820000AF34 /* Procrastinot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB21D891C7844820000AF34 /* Build configuration list for PBXNativeTarget "Procrastinot" */;
+			buildPhases = (
+				6CB21D5D1C7844820000AF34 /* Sources */,
+				6CB21D5E1C7844820000AF34 /* Frameworks */,
+				6CB21D5F1C7844820000AF34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Procrastinot;
+			productName = Procrastinot;
+			productReference = 6CB21D611C7844820000AF34 /* Procrastinot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CB21D741C7844820000AF34 /* ProcrastinotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB21D8C1C7844820000AF34 /* Build configuration list for PBXNativeTarget "ProcrastinotTests" */;
+			buildPhases = (
+				6CB21D711C7844820000AF34 /* Sources */,
+				6CB21D721C7844820000AF34 /* Frameworks */,
+				6CB21D731C7844820000AF34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CB21D771C7844820000AF34 /* PBXTargetDependency */,
+			);
+			name = ProcrastinotTests;
+			productName = ProcrastinotTests;
+			productReference = 6CB21D751C7844820000AF34 /* ProcrastinotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CB21D7F1C7844820000AF34 /* ProcrastinotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CB21D8F1C7844820000AF34 /* Build configuration list for PBXNativeTarget "ProcrastinotUITests" */;
+			buildPhases = (
+				6CB21D7C1C7844820000AF34 /* Sources */,
+				6CB21D7D1C7844820000AF34 /* Frameworks */,
+				6CB21D7E1C7844820000AF34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CB21D821C7844820000AF34 /* PBXTargetDependency */,
+			);
+			name = ProcrastinotUITests;
+			productName = ProcrastinotUITests;
+			productReference = 6CB21D801C7844820000AF34 /* ProcrastinotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CB21D591C7844820000AF34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Procrastinot;
+				TargetAttributes = {
+					6CB21D601C7844820000AF34 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6CB21D741C7844820000AF34 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6CB21D601C7844820000AF34;
+					};
+					6CB21D7F1C7844820000AF34 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6CB21D601C7844820000AF34;
+					};
+				};
+			};
+			buildConfigurationList = 6CB21D5C1C7844820000AF34 /* Build configuration list for PBXProject "Procrastinot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CB21D581C7844820000AF34;
+			productRefGroup = 6CB21D621C7844820000AF34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CB21D601C7844820000AF34 /* Procrastinot */,
+				6CB21D741C7844820000AF34 /* ProcrastinotTests */,
+				6CB21D7F1C7844820000AF34 /* ProcrastinotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CB21D5F1C7844820000AF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB21D6F1C7844820000AF34 /* LaunchScreen.storyboard in Resources */,
+				6CB21D6C1C7844820000AF34 /* Assets.xcassets in Resources */,
+				6CB21D6A1C7844820000AF34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB21D731C7844820000AF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB21D7E1C7844820000AF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CB21D5D1C7844820000AF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB21D671C7844820000AF34 /* ViewController.swift in Sources */,
+				6CB21D651C7844820000AF34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB21D711C7844820000AF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB21D7A1C7844820000AF34 /* ProcrastinotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB21D7C1C7844820000AF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB21D851C7844820000AF34 /* ProcrastinotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CB21D771C7844820000AF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CB21D601C7844820000AF34 /* Procrastinot */;
+			targetProxy = 6CB21D761C7844820000AF34 /* PBXContainerItemProxy */;
+		};
+		6CB21D821C7844820000AF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CB21D601C7844820000AF34 /* Procrastinot */;
+			targetProxy = 6CB21D811C7844820000AF34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CB21D681C7844820000AF34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB21D691C7844820000AF34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CB21D6D1C7844820000AF34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB21D6E1C7844820000AF34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CB21D871C7844820000AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CB21D881C7844820000AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CB21D8A1C7844820000AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Procrastinot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackillinois2016.Procrastinot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CB21D8B1C7844820000AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Procrastinot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackillinois2016.Procrastinot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CB21D8D1C7844820000AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProcrastinotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackillinois2016.ProcrastinotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Procrastinot.app/Procrastinot";
+			};
+			name = Debug;
+		};
+		6CB21D8E1C7844820000AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProcrastinotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackillinois2016.ProcrastinotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Procrastinot.app/Procrastinot";
+			};
+			name = Release;
+		};
+		6CB21D901C7844820000AF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProcrastinotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackillinois2016.ProcrastinotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Procrastinot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6CB21D911C7844820000AF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProcrastinotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hackillinois2016.ProcrastinotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Procrastinot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CB21D5C1C7844820000AF34 /* Build configuration list for PBXProject "Procrastinot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB21D871C7844820000AF34 /* Debug */,
+				6CB21D881C7844820000AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CB21D891C7844820000AF34 /* Build configuration list for PBXNativeTarget "Procrastinot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB21D8A1C7844820000AF34 /* Debug */,
+				6CB21D8B1C7844820000AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CB21D8C1C7844820000AF34 /* Build configuration list for PBXNativeTarget "ProcrastinotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB21D8D1C7844820000AF34 /* Debug */,
+				6CB21D8E1C7844820000AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CB21D8F1C7844820000AF34 /* Build configuration list for PBXNativeTarget "ProcrastinotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CB21D901C7844820000AF34 /* Debug */,
+				6CB21D911C7844820000AF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CB21D591C7844820000AF34 /* Project object */;
+}
