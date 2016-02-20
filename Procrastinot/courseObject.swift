@@ -25,7 +25,9 @@ class courseObject: NSObject {
 
     func addHomework (title: String, date: NSDate){
         var homework = homeworkObject.init(title: title, dueBy: date) // initialize homework
-        homeworks?.insert(homework, atIndex: 0) // and append it to the end of the homework array
+        homeworks?.insert(homework, atIndex: 0)
+        
+        // and append it to the end of the homework array
     }
     
     func addExam(date: NSDate, location: String){

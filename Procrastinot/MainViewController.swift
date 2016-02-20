@@ -60,6 +60,8 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return courseCell
     }
     
+    
+    }
 
 
 }
