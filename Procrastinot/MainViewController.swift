@@ -60,7 +60,14 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return courseCell
     }
     
-
+  /*  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+      print("segue")
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    
+*/
 
 }
 
