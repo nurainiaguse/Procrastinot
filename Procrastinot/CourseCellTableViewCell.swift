@@ -12,10 +12,12 @@ class CourseCellTableViewCell: UITableViewCell {
     
     @IBOutlet weak var classLabel: UILabel!
     
+    var course: courseObject!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        classLabel = course.courseName
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

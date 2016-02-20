@@ -27,6 +27,8 @@
 		6CB21DA81C78B67A0000AF34 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB21DA71C78B67A0000AF34 /* libz.tbd */; };
 		6CB21DAA1C78B6820000AF34 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB21DA91C78B6820000AF34 /* libsqlite3.tbd */; };
 		6CB21DAF1C78D0020000AF34 /* courseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21DAE1C78D0020000AF34 /* courseObject.swift */; };
+		6CB21DB11C78DA130000AF34 /* homeworkObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21DB01C78DA130000AF34 /* homeworkObject.swift */; };
+		6CB21DB31C78DEC40000AF34 /* examObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21DB21C78DEC40000AF34 /* examObject.swift */; };
 		A222947BB23290EB4185118D /* Pods_Procrastinot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF8159FECADEC5E8F74F9EF /* Pods_Procrastinot.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +77,8 @@
 		6CB21DA71C78B67A0000AF34 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		6CB21DA91C78B6820000AF34 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		6CB21DAE1C78D0020000AF34 /* courseObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = courseObject.swift; sourceTree = "<group>"; };
+		6CB21DB01C78DA130000AF34 /* homeworkObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeworkObject.swift; sourceTree = "<group>"; };
+		6CB21DB21C78DEC40000AF34 /* examObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = examObject.swift; sourceTree = "<group>"; };
 		6DF8159FECADEC5E8F74F9EF /* Pods_Procrastinot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Procrastinot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE9142A934C7A3185B4918F /* Pods-Procrastinot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procrastinot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Procrastinot/Pods-Procrastinot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,6 +214,8 @@
 			isa = PBXGroup;
 			children = (
 				6CB21DAE1C78D0020000AF34 /* courseObject.swift */,
+				6CB21DB01C78DA130000AF34 /* homeworkObject.swift */,
+				6CB21DB21C78DEC40000AF34 /* examObject.swift */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -409,6 +415,8 @@
 				6CB21DAF1C78D0020000AF34 /* courseObject.swift in Sources */,
 				6CB21D941C78A2490000AF34 /* CourseCellTableViewCell.swift in Sources */,
 				6CB21D651C7844820000AF34 /* AppDelegate.swift in Sources */,
+				6CB21DB11C78DA130000AF34 /* homeworkObject.swift in Sources */,
+				6CB21DB31C78DEC40000AF34 /* examObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     
     @IBOutlet weak var courseTableView: UITableView!
     
-    var courses: [NSDictionary]?
+    var courses: [courseObject]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +43,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         let course = courses![indexPath.row]
         let courseCell = tableView.dequeueReusableCellWithIdentifier("coursecell", forIndexPath: indexPath) as! CourseCellTableViewCell
-        courseCell.classLabel.text = "hello"
+        courseCell.course = courseObject.init()
         return courseCell
     }
 
