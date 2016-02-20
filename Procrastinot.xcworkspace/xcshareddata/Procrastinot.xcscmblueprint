@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9DB56D6AE7E764A579113BDD277AFE209F6E574C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9DB56D6AE7E764A579113BDD277AFE209F6E574C" : 0,
+    "FECE135D2519BB5C20BB6736DC231C52AE886198" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "68290AC8-7969-43A6-96F0-474609BC3DAF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9DB56D6AE7E764A579113BDD277AFE209F6E574C" : "Procrastinot\/",
+    "FECE135D2519BB5C20BB6736DC231C52AE886198" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Procrastinot",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Procrastinot.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nurainiaguse\/Procrastinot.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9DB56D6AE7E764A579113BDD277AFE209F6E574C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nurainiaguse\/Procrastinot.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FECE135D2519BB5C20BB6736DC231C52AE886198"
+    }
+  ]
+}
