@@ -24,10 +24,15 @@
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Co2-CG-5gh">
                                             <rect key="frame" x="263" y="39" width="42" height="41"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <gestureRecognizers/>
                                             <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                             <state key="normal" title="+">
                                                 <color key="titleColor" red="0.69188836902195094" green="0.68991239914018077" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             </state>
+                                            <connections>
+                                                <action selector="testing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aHz-jC-LoC"/>
+                                                <outletCollection property="gestureRecognizers" destination="t2R-kO-oqc" appends="YES" id="7jl-ut-93I"/>
+                                            </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fall 2016" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RRd-mo-a5Q">
                                             <rect key="frame" x="21" y="35" width="165" height="45"/>
@@ -70,8 +75,27 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="t2R-kO-oqc">
+                    <connections>
+                        <action selector="addCourseButton:" destination="BYZ-38-t0r" id="QAs-IJ-buW"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="234" y="366"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cAM-pa-C6h">
+            <objects>
+                <viewController id="sab-CM-rUQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1mj-8I-XG3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Quc-Xl-9aw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="640" y="366"/>
         </scene>
     </scenes>
 </document>
