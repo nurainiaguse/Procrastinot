@@ -43,7 +43,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
         let course = courses![indexPath.row]
         let courseCell = tableView.dequeueReusableCellWithIdentifier("coursecell", forIndexPath: indexPath) as! CourseCellTableViewCell
-        courseCell.course = courseObject.init()
+        //courseCell.course = courseObject.init()
         return courseCell
     }
 
