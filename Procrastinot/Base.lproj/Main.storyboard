@@ -86,11 +86,44 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="AdZ-FY-S0Y"/>
+                    <navigationItem key="navigationItem" id="AdZ-FY-S0Y">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Hrs-n2-lF7">
+                            <connections>
+                                <segue destination="5YM-6K-ByI" kind="modal" id="nLa-gQ-tOZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kbI-cs-abt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1332" y="607"/>
+        </scene>
+        <!--Date Picker View Controller-->
+        <scene sceneID="V9a-kh-LHk">
+            <objects>
+                <viewController id="wIH-aw-Pf0" customClass="DatePickerViewController" customModule="Procrastinot" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kHK-rt-UnR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="p60-vy-IgC">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="Dt3-Cd-F9S">
+                            <connections>
+                                <segue destination="dbb-pT-aC8" kind="unwind" unwindAction="cancelToAddingDetail:" id="gqn-7x-Sj4"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="Hti-i8-sdS">
+                            <connections>
+                                <segue destination="dbb-pT-aC8" kind="unwind" unwindAction="saveCourseDetail:" id="Xej-ue-7VK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="omC-cn-QWq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="dbb-pT-aC8" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2169" y="601"/>
         </scene>
         <!--Add Course-->
         <scene sceneID="cAM-pa-C6h">
@@ -192,6 +225,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w8Y-PS-vfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="234" y="366"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HU3-iO-yqD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5YM-6K-ByI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2Mr-85-q7Y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wIH-aw-Pf0" kind="relationship" relationship="rootViewController" id="Tp7-Nz-LcM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Awu-Hi-HVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1772" y="607"/>
         </scene>
     </scenes>
 </document>

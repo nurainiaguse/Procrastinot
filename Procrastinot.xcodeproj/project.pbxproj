@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3892C5E41C7919B40058B705 /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3892C5E31C7919B40058B705 /* DatePickerController.swift */; };
 		6CB21D651C7844820000AF34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21D641C7844820000AF34 /* AppDelegate.swift */; };
 		6CB21D671C7844820000AF34 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21D661C7844820000AF34 /* MainViewController.swift */; };
 		6CB21D6A1C7844820000AF34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB21D681C7844820000AF34 /* Main.storyboard */; };
@@ -33,6 +32,7 @@
 		6CB21DB71C79227D0000AF34 /* AddClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21DB61C79227D0000AF34 /* AddClassViewController.swift */; };
 		6CB21DB91C7922A50000AF34 /* CourseDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21DB81C7922A50000AF34 /* CourseDetailsViewController.swift */; };
 		6CB21DBC1C79379C0000AF34 /* FullCourseListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21DBB1C79379C0000AF34 /* FullCourseListCell.swift */; };
+		6CB21DBE1C795B2D0000AF34 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB21DBD1C795B2D0000AF34 /* DatePickerViewController.swift */; };
 		A222947BB23290EB4185118D /* Pods_Procrastinot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF8159FECADEC5E8F74F9EF /* Pods_Procrastinot.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,7 +55,6 @@
 
 /* Begin PBXFileReference section */
 		07C5BE33459A027DD2C2DC81 /* Pods-Procrastinot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procrastinot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Procrastinot/Pods-Procrastinot.debug.xcconfig"; sourceTree = "<group>"; };
-		3892C5E31C7919B40058B705 /* DatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
 		6CB21D611C7844820000AF34 /* Procrastinot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Procrastinot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB21D641C7844820000AF34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CB21D661C7844820000AF34 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +86,7 @@
 		6CB21DB61C79227D0000AF34 /* AddClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddClassViewController.swift; sourceTree = "<group>"; };
 		6CB21DB81C7922A50000AF34 /* CourseDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseDetailsViewController.swift; sourceTree = "<group>"; };
 		6CB21DBB1C79379C0000AF34 /* FullCourseListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullCourseListCell.swift; sourceTree = "<group>"; };
+		6CB21DBD1C795B2D0000AF34 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		6DF8159FECADEC5E8F74F9EF /* Pods_Procrastinot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Procrastinot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE9142A934C7A3185B4918F /* Pods-Procrastinot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Procrastinot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Procrastinot/Pods-Procrastinot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -197,9 +197,9 @@
 			isa = PBXGroup;
 			children = (
 				6CB21D661C7844820000AF34 /* MainViewController.swift */,
-				3892C5E31C7919B40058B705 /* DatePickerController.swift */,
 				6CB21DB61C79227D0000AF34 /* AddClassViewController.swift */,
 				6CB21DB81C7922A50000AF34 /* CourseDetailsViewController.swift */,
+				6CB21DBD1C795B2D0000AF34 /* DatePickerViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -435,9 +435,9 @@
 				6CB21DBC1C79379C0000AF34 /* FullCourseListCell.swift in Sources */,
 				6CB21DAF1C78D0020000AF34 /* courseObject.swift in Sources */,
 				6CB21D941C78A2490000AF34 /* CourseCellTableViewCell.swift in Sources */,
+				6CB21DBE1C795B2D0000AF34 /* DatePickerViewController.swift in Sources */,
 				6CB21DB91C7922A50000AF34 /* CourseDetailsViewController.swift in Sources */,
 				6CB21D651C7844820000AF34 /* AppDelegate.swift in Sources */,
-				3892C5E41C7919B40058B705 /* DatePickerController.swift in Sources */,
 				6CB21DB71C79227D0000AF34 /* AddClassViewController.swift in Sources */,
 				6CB21DB11C78DA130000AF34 /* homeworkObject.swift in Sources */,
 				6CB21DB31C78DEC40000AF34 /* examObject.swift in Sources */,
