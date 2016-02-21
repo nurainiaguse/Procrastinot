@@ -34,6 +34,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        print("returning count in main")
         return courses.count
   /*      if let courses = courses { // if semesters is not nil, assign it to sem
             print("its gonna return count")

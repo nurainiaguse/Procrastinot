@@ -23,15 +23,13 @@ class courseObject: NSObject {
         courseWebsite = dictionary["courseWebsite"] as? [String]
     }
 
-    func addHomework (title: String, date: NSDate){
-        var homework = homeworkObject.init(title: title, dueBy: date) // initialize homework
+    func addHomework (homework: homeworkObject){
         homeworks?.insert(homework, atIndex: 0)
         
         // and append it to the end of the homework array
     }
     
-    func addExam(date: NSDate, location: String){
-        var exam = examObject.init(date: date, location: location) // initialize exam
+    func addExam(exam: examObject){
         exams?.append(exam) // and append it to the end of the exam array
     }
     
