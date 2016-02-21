@@ -8,30 +8,36 @@
 
 import UIKit
 
+
 class DatePickerViewController: UIViewController {
-    
-    @IBAction func textEditingField(sender: UITextField) {
+    @IBAction func textFieldEditor(sender: UITextField) {
         let datePickerView:UIDatePicker = UIDatePicker()
+        
         datePickerView.datePickerMode = UIDatePickerMode.Date
         
         sender.inputView = datePickerView
-        datePickerView.addTarget(self,action: Selector("datePickerValueChanged:"), forControlEvents: UIControlEvents.ValueChanged)
+        
+        datePickerView.addTarget(self, action: Selector("datePickerValueChanged:"), forControlEvents: UIControlEvents.ValueChanged)    }
+    @IBOutlet weak var DatePicker: UITextField!
+
+    func datePickerValueChanged(sender:UIDatePicker) {
+        
+        let dateFormatter = NSDateFormatter()
+        
+        dateFormatter.dateStyle = NSDateFormatterStyle.MediumStyle
+        
+        dateFormatter.timeStyle = NSDateFormatterStyle.NoStyle
+        
+        DatePicker.text = dateFormatter.stringFromDate(sender.date)
     }
     
-
-    @IBOutlet weak var dateTextFiedl: UITextField!
-    override func viewDidLoad() {
+        override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    func datePickerValueChanged(sender: UIDatePicker){
-        let dateFormatter = NSDateFormatter()
-        dateFormatter.dateStyle = NSDateFormatterStyle.MediumStyle
-        dateFormatter.timeStyle = NSDateFormatterStyle.NoStyle
-        dateTextFiedl.text = dateFormatter.stringFromDate(sender.date)
-    }
+ 
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
