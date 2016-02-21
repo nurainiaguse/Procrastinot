@@ -23,12 +23,7 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         courseTableView.reloadData()
         
         //dummy courses array
-        var dict1 = [
-            "courseCode": "CS 125",
-            "courseName": "Intro to programming"
-        ]
-        var dummyCourse1 = courseObject.init(dictionary: dict1)
-        courses.insert(dummyCourse1, atIndex: 0)
+
         //example.hidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -60,8 +55,40 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return courseCell
     }
     
-    
+    @IBAction func cancelToClassViewController(segue:UIStoryboardSegue) {
     }
+    
+    @IBAction func saveClassDetail(segue:UIStoryboardSegue) {
+        if let AddClassViewController = segue.sourceViewController as? AddClassViewController {
+            
+            //add the new player to the players array
+            if let course = AddClassViewController.course {
+                courses.append(course)
+                
+                //update the tableView
+                let indexPath = NSIndexPath(forRow: courses.count-1, inSection: 0)
+                courseTableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+            }
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == "toClassDetails"{ // if we segue to class details
+            let cell = sender as! UITableViewCell
+            let indexPath = courseTableView.indexPathForCell(cell)
+            let course = courses[indexPath!.row]
+        
+            let CourseDetailViewController = segue.destinationViewController as! CourseDetailsViewController
+            CourseDetailViewController.course = course
+        }
+        
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+
+    
+
 
 
 }
